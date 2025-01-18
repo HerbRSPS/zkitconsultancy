@@ -6,7 +6,7 @@
     </linearGradient>
     <filter id="Base" x="402.56" y="2073.6" width="634.881" height="549.88" filterUnits="userSpaceOnUse">
       <feOffset dy="41.04" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="42.48" result="blur"/>
+      <feGaussianBlur stdDeviation="42.48" result="blur"/> 
       <feFlood flood-opacity="0.055"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
