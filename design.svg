@@ -667,24 +667,24 @@ Sed magna odio, interdum facilisis interdum sed, semper a nisi." transform="tran
           <path id="Ellipse_23" data-name="Ellipse 23" d="M0,24A24,24,0,1,1,24,48,24,24,0,0,1,0,24Z" fill="url(#linear-gradient-11)"/>
           <path id="Icon_akar-plus" data-name="Icon akar-plus" d="M18,18m0,0,0,0H30M18,18H6" transform="translate(6 6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
         </g>
-        <g id="Group_54" data-name="Group 54" transform="translate(52 43)" style="isolation: isolate">
-          <text id="Lorem_ipsum_dolor_sit_amet" data-name="Lorem ipsum dolor sit amet" fill="#ebebeb" font-size="24" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0" y="25">Lorem ipsum dolor sit amet</tspan></text>
-          <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Fusce_tempor_ornare_enim_pellentesque_dignissim_lorem_imperdiet_eget._Fusce_eget_est_leo." data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor ornare enim, pellentesque dignissim lorem imperdiet eget. Fusce eget est leo." transform="translate(0 73)" fill="#a4a4a4" font-size="18" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0" y="19">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor ornare enim, pellentesque dignissim </tspan><tspan x="0" y="46">lorem imperdiet eget. Fusce eget est leo.</tspan></text>
+        <g id="Group_54" data-name="Group 54" transform="translate(26 43)" style="isolation: isolate">
+          <text id="Lorem_ipsum_dolor_sit_amet" data-name="Lorem ipsum dolor sit amet" fill="#ebebeb" font-size="20" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0" y="21">Lorem ipsum dolor sit amet</tspan></text>
+          <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Fusce_tempor_ornare_enim_pellentesque_dignissim_lorem_imperdiet_eget._Fusce_eget_est_leo." data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor ornare enim, pellentesque dignissim lorem imperdiet eget. Fusce eget est leo." transform="translate(0 73)" fill="#a4a4a4" font-size="16" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0" y="17">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor ornare enim, pellentesque dignissim lorem imperdiet </tspan><tspan x="0" y="42">eget. Fusce eget est leo.</tspan></text>
         </g>
       </g>
-      <g id="Group_262" data-name="Group 262" transform="translate(155 3756)">
-        <rect id="Rectangle_13" data-name="Rectangle 13" width="1358" height="89" rx="11" fill="url(#linear-gradient-10)"/>
-        <g id="Group_54-2" data-name="Group 54" transform="translate(55 26)" style="isolation: isolate">
-          <text id="Lorem_ipsum_dolor_sit_amet-2" data-name="Lorem ipsum dolor sit amet" fill="#fff" font-size="24" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0" y="25">Lorem ipsum dolor sit amet</tspan></text>
+      <g id="Group_262" data-name="Group 262" transform="translate(155 3754.941)">
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="1358" height="67" rx="11" transform="translate(0 0.059)" fill="url(#linear-gradient-10)"/>
+        <g id="Group_54-2" data-name="Group 54" transform="translate(27 18.621)" style="isolation: isolate">
+          <text id="Lorem_ipsum_dolor_sit_amet-2" data-name="Lorem ipsum dolor sit amet" transform="translate(0 0.438)" fill="#fff" font-size="20" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0" y="21">Lorem ipsum dolor sit amet</tspan></text>
         </g>
-        <path id="Icon_akar-plus-2" data-name="Icon akar-plus" d="M18,30V18m0,0V6m0,12H30M18,18H6" transform="translate(1279.5 29.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+        <path id="Icon_akar-plus-2" data-name="Icon akar-plus" d="M18,30V18m0,0V6m0,12H30M18,18H6" transform="translate(1278.5 15.559)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
       </g>
-      <g id="Group_263" data-name="Group 263" transform="translate(155 3878)">
-        <rect id="Rectangle_13-2" data-name="Rectangle 13" width="1358" height="89" rx="11" fill="url(#linear-gradient-10)"/>
-        <g id="Group_54-3" data-name="Group 54" transform="translate(55 26)" style="isolation: isolate">
-          <text id="Lorem_ipsum_dolor_sit_amet-3" data-name="Lorem ipsum dolor sit amet" fill="#fff" font-size="24" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0" y="25">Lorem ipsum dolor sit amet</tspan></text>
+      <g id="Group_263" data-name="Group 263" transform="translate(155 3853.941)">
+        <rect id="Rectangle_13-2" data-name="Rectangle 13" width="1358" height="67" rx="11" transform="translate(0 0.059)" fill="url(#linear-gradient-10)"/>
+        <g id="Group_54-3" data-name="Group 54" transform="translate(27 18.621)" style="isolation: isolate">
+          <text id="Lorem_ipsum_dolor_sit_amet-3" data-name="Lorem ipsum dolor sit amet" transform="translate(0 0.438)" fill="#fff" font-size="20" font-family="Poppins-Regular, Poppins" style="isolation: isolate"><tspan x="0" y="21">Lorem ipsum dolor sit amet</tspan></text>
         </g>
-        <path id="Icon_akar-plus-3" data-name="Icon akar-plus" d="M18,30V18m0,0V6m0,12H30M18,18H6" transform="translate(1279.5 29.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+        <path id="Icon_akar-plus-3" data-name="Icon akar-plus" d="M18,30V18m0,0V6m0,12H30M18,18H6" transform="translate(1278.5 15.559)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
       </g>
     </g>
   </g>
