@@ -1,0 +1,50 @@
+.statistics {
+  margin-top: 150px;
+  padding: 4rem 1rem;
+  position: relative;
+  overflow: hidden;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.stat-card {
+  flex: 1;
+  max-width: 350px;
+  text-align: center;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+  background: linear-gradient(to bottom right, #1e1e1e, #0c0c0c);
+}
+
+.stat-card:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.stat-card:last-child {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.stat-number {
+  font-size: 3.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #7c3aed, #e11d48);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.stat-label {
+  color: white;
+  font-size: 1.125rem;
+}

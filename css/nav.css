@@ -1,0 +1,165 @@
+.marquee {
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  height: 40px;
+  width: 100%;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.marquee--inner {
+  display: block;
+  width: 200%;
+  position: absolute;
+  animation: marquee 20s linear infinite;
+  will-change: transform;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+.marquee--inner span {
+  float: left;
+  width: 50%;
+}
+
+.marquee--inner span div {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: white;
+  padding: 0 1rem;
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+nav {
+  position: fixed;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 0.9rem;
+  width: 90%;
+  max-width: 1200px;
+  z-index: 1000;
+  will-change: transform;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  padding: 0 1.2rem;
+  gap: 48px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  height: 2.4rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+  position: relative;
+  padding: 4px 0;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4.5px;
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+  will-change: transform;
+}
+
+.nav-links a.active::after {
+  transform: scaleX(1);
+}
+
+.nav-links a:hover::after {
+  transform: scaleX(1);
+}
+
+.appointment-btn {
+  background: linear-gradient(to right, #7c3aed, #e11d48);
+  color: white;
+  border: none;
+  padding: 0.72rem 1.44rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  transform: translateZ(0);
+}
+
+.appointment-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: 0.5s;
+  will-change: transform;
+}
+
+.appointment-btn:hover {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.5), 0 0 40px rgba(225, 29, 72, 0.3);
+}
+
+.appointment-btn:hover::before {
+  left: 100%;
+}

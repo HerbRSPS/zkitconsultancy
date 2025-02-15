@@ -1,27 +1,636 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullscreen Image</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            background-color: #191919;
-        }
-        img {
-            display: block;
-            width: auto;
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <img src="design.jpg" alt="Fullscreen Design">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZK-IT & Consultancy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/steps.css" />
+    <link rel="stylesheet" href="css/testimonials.css" />
+    <link rel="stylesheet" href="css/stats.css" />
+    <link rel="stylesheet" href="css/pricing.css" />
+    <link rel="stylesheet" href="css/faq.css" />
+    <link rel="stylesheet" href="css/cta.css" />
+    <link rel="stylesheet" href="css/trust.css" />
+    <link rel="stylesheet" href="css/floating-buttons.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <div class="marquee">
+      <div class="marquee--inner">
+        <span>
+          <div>
+            Wij zijn op zoek naar nieuwe developers! ☻ Bekijk onze vacatures ☻
+            Gratis website scan t.w.v. €249,- ☻&nbsp;
+          </div>
+        </span>
+        <span>
+          <div>
+            Wij zijn op zoek naar nieuwe developers! ☻ Bekijk onze vacatures ☻
+            Gratis website scan t.w.v. €249,- ☻&nbsp;
+          </div>
+        </span>
+      </div>
+    </div>
+
+    <nav>
+      <div class="nav-content">
+        <div class="logo-container">
+          <img src="/logo.svg" alt="ZK-IT & Consultancy" class="logo" />
+          <span>ZK-IT & CONSULTANCY</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">Over Ons</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="appointment-btn">Boek een Afspraak</button>
+      </div>
+    </nav>
+
+    <div class="hero-section">
+      <main>
+        <div class="rating-container">
+          <span>Beoordeeld door</span>
+          <div class="business-logos">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+              alt="Business 1"
+              class="business-logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+              alt="Business 2"
+              class="business-logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+              alt="Business 3"
+              class="business-logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+              alt="Business 4"
+              class="business-logo"
+            />
+          </div>
+          <span class="bold">25+ bedrijven</span>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <h1>
+          Jouw partner voor alles omtrent<br />
+          websites, webshops & vindbaarheid
+        </h1>
+
+        <p class="hero-text">
+          Van het ontwikkelen van websites en webshops tot aan het veroveren van
+          de #1 zoekpositie op jouw dienst.<br />
+          Bij ZK doen we het allemaal!
+        </p>
+
+        <button class="cta-button">
+          <div class="cta-content">
+            <div class="cta-text">
+              <span class="cta-title">Plan een Afspraak</span>
+              <span class="cta-subtitle">Met een van onze agents.</span>
+            </div>
+            <div class="cta-arrow">→</div>
+          </div>
+        </button>
+
+        <div class="scroll-arrow">↓</div>
+      </main>
+    </div>
+
+    <div class="trusted-label">
+      <div class="badge">Vertrouwd door toonaangevende bedrijven</div>
+    </div>
+
+    <div class="trusted-by">
+      <div class="partner-logos">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
+          alt="Microsoft"
+          class="partner-logo"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
+          alt="Microsoft"
+          class="partner-logo"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
+          alt="Microsoft"
+          class="partner-logo"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
+          alt="Microsoft"
+          class="partner-logo"
+        />
+      </div>
+    </div>
+
+    <div class="recent-projects">
+      <div class="badge">Lorem ipsum</div>
+      <h2>Recente Projecten</h2>
+      <p class="projects-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+        In vel ligula hendrerit, sagittis libero a, posuere libero.
+      </p>
+
+      <div class="project-categories">
+        <button class="category-btn active" data-category="all">All</button>
+        <button class="category-btn" data-category="webshop">Webshop</button>
+        <button class="category-btn" data-category="website">Website</button>
+        <button class="category-btn" data-category="seo">SEO</button>
+        <button class="category-btn" data-category="design">Design</button>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card" data-category="webshop">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+            alt="Project 1"
+          />
+          <div class="project-info">
+            <h3>E-commerce Platform</h3>
+            <span class="project-date">19-01-2023</span>
+          </div>
+        </div>
+        <div class="project-card" data-category="website">
+          <img
+            src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+            alt="Project 2"
+          />
+          <div class="project-info">
+            <h3>Corporate Website</h3>
+            <span class="project-date">19-01-2023</span>
+          </div>
+        </div>
+        <div class="project-card" data-category="seo">
+          <img
+            src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+            alt="Project 3"
+          />
+          <div class="project-info">
+            <h3>SEO Optimization</h3>
+            <span class="project-date">19-01-2023</span>
+          </div>
+        </div>
+        <div class="project-card" data-category="design">
+          <img
+            src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+            alt="Project 4"
+          />
+          <div class="project-info">
+            <h3>UI/UX Design</h3>
+            <span class="project-date">19-01-2023</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="view-more-btn">Bekijk Alle Projecten</button>
+    </div>
+
+    <div class="how-we-work">
+      <div class="badge">Lorem ipsum</div>
+      <h2>Hoe gaan we te werk?</h2>
+      <p class="work-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+        In vel ligula hendrerit, sagittis libero a, posuere libero.<br />
+        Sed magna odio, interdum facilisis interdum sed, semper a nisi.
+      </p>
+
+      <div class="steps-container">
+        <div class="step-card">
+          <div class="step-label">STAP 1</div>
+          <h3>On-Boarding</h3>
+          <div class="step-underline"></div>
+          <p class="step-description">
+            Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam
+            ex odio, is the turpis accu msan congue euisque blandit dui Pelle
+            ntesque habitant.
+          </p>
+          <p class="step-description">
+            Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam
+            ex odio, is the turpis accu msan congue euisque blandit dui.
+          </p>
+        </div>
+
+        <div class="step-card active">
+          <div class="step-label">STAP 2</div>
+          <h3>Bouwen & Feedback</h3>
+          <div class="step-underline"></div>
+          <p class="step-description">
+            Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam
+            ex odio, is the turpis accu msan congue euisque blandit dui Pelle
+            ntesque habitant.
+          </p>
+          <p class="step-description">
+            Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam
+            ex odio, is the turpis accu msan congue euisque blandit dui.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-label">STAP 3</div>
+          <h3>Oplevering</h3>
+          <div class="step-underline"></div>
+          <p class="step-description">
+            Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam
+            ex odio, is the turpis accu msan congue euisque blandit dui Pelle
+            ntesque habitant.
+          </p>
+          <p class="step-description">
+            Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam
+            ex odio, is the turpis accu msan congue euisque blandit dui.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <div class="badge">Lorem ipsum</div>
+      <h2>Wat zeggen onze klanten?</h2>
+      <p class="testimonials-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+        In vel ligula hendrerit, sagittis libero a, posuere libero.<br />
+        Sed magna odio, interdum facilisis interdum sed, semper a nisi.
+      </p>
+
+      <div class="testimonials-slider">
+        <div class="testimonials-track">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
+              ligula hendrerit, sagittis libero a, posuere libero.
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Meradj Chenari</span>
+              <span class="author-location">Klant uit Nederland</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card active">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
+              ligula hendrerit, sagittis libero a, posuere libero.
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Meradj Chenari</span>
+              <span class="author-location">Klant uit Nederland</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel
+              ligula hendrerit, sagittis libero a, posuere libero.
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Meradj Chenari</span>
+              <span class="author-location">Klant uit Nederland</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-arrow prev">←</button>
+          <button class="slider-arrow next">→</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="statistics">
+      <div class="stats-container">
+        <div class="stat-card">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Jaren Ervaring</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Succesvolle Projecten</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Tevredenheidsgarantie</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing">
+      <div class="badge">Lorem ipsum</div>
+      <h2>Wat gaat het kosten?</h2>
+      <p class="pricing-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+        In vel ligula hendrerit, sagittis libero a, posuere libero.<br />
+        Sed magna odio, interdum facilisis interdum sed, semper a nisi.
+      </p>
+
+      <div class="pricing-container">
+        <div class="pricing-card">
+          <h3 class="pricing-type">Website</h3>
+          <p class="pricing-label">Vanaf</p>
+          <div class="price">€995</div>
+          <p class="price-period">Perfect Voor Bedrijven</p>
+          <p class="price-description">
+            Die Meer Leads En Aanvragen<br />Willen Genereren.
+          </p>
+          <div class="features-list">
+            <div class="feature-item">Geschikt voor alle apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+          </div>
+          <button class="pricing-btn">Plan een Afspraak</button>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="most-chosen-label">
+            Meest Gekozen <span class="emoji">🔥</span>
+          </div>
+          <h3 class="pricing-type">Website</h3>
+          <p class="pricing-label">Vanaf</p>
+          <div class="price">€995</div>
+          <p class="price-period">Perfect Voor Bedrijven</p>
+          <p class="price-description">
+            Die Meer Leads En Aanvragen<br />Willen Genereren.
+          </p>
+          <div class="features-list">
+            <div class="feature-item">Geschikt voor alle apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+          </div>
+          <button class="pricing-btn">Plan een Afspraak</button>
+        </div>
+
+        <div class="pricing-card">
+          <h3 class="pricing-type">Website</h3>
+          <p class="pricing-label">Vanaf</p>
+          <div class="price">€995</div>
+          <p class="price-period">Perfect Voor Bedrijven</p>
+          <p class="price-description">
+            Die Meer Leads En Aanvragen<br />Willen Genereren.
+          </p>
+          <div class="features-list">
+            <div class="feature-item">Geschikt voor alle apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+            <div class="feature-item">Geschikt Voor Alle Apparaten</div>
+          </div>
+          <button class="pricing-btn">Plan een Afspraak</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="badge">Lorem ipsum</div>
+      <h2>Veelgestelde vragen</h2>
+      <p class="faq-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
+        In vel ligula hendrerit, sagittis libero a, posuere libero.<br />
+        Sed magna odio, interdum facilisis interdum sed, semper a nisi.
+      </p>
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Wat is de doorlooptijd van een project?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" width="24" height="24">
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 5v14M5 12h14"
+              />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              ex odio, is the turpis accumsan congue euisque blandit dui
+              Pellentesque habitant.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Hoe verloopt het proces?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" width="24" height="24">
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 5v14M5 12h14"
+              />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              ex odio, is the turpis accumsan congue euisque blandit dui
+              Pellentesque habitant.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Wat zijn de kosten?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" width="24" height="24">
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 5v14M5 12h14"
+              />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              ex odio, is the turpis accumsan congue euisque blandit dui
+              Pellentesque habitant.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Welke garanties bieden jullie?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" width="24" height="24">
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 5v14M5 12h14"
+              />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              ex odio, is the turpis accumsan congue euisque blandit dui
+              Pellentesque habitant.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grey-box-section">
+      <h2>Klaar om te beginnen?</h2>
+      <p class="grey-box-description">
+        Neem contact met ons op en ontdek hoe wij jouw online aanwezigheid
+        kunnen versterken
+      </p>
+      <button class="cta-button" style="margin-top: 50px">
+        <div class="cta-content">
+          <div class="cta-text">
+            <span class="cta-title">Plan een Afspraak</span>
+            <span class="cta-subtitle">Met een van onze agents.</span>
+          </div>
+          <div class="cta-arrow">→</div>
+        </div>
+      </button>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-company">
+            <div class="footer-logo">
+              <img src="/logo.svg" alt="ZK-IT & Consultancy" />
+              <span>ZK-IT & CONSULTANCY</span>
+            </div>
+            <p>
+              Lorem ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem ipsum has been the industry's standard dummy text
+              ever.Since the 1500s, when an
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h3>Volg Ons</h3>
+            <p>
+              Lorem ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png"
+                  alt="Facebook"
+                />
+              </a>
+              <a href="#" class="social-link">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png"
+                  alt="Instagram"
+                />
+              </a>
+              <a href="#" class="social-link">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/159px-YouTube_full-color_icon_%282017%29.svg.png"
+                  alt="YouTube"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Contact Ons</h3>
+            <p>Email: support@zkitconsultancy.nl</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Informatie</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">Over Ons</a>
+            <a href="#">Diensten</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer-column">
+            <h4>Diensten</h4>
+            <a href="#">Websites</a>
+            <a href="#">Webshops</a>
+            <a href="#">SEO</a>
+            <a href="#">Design</a>
+          </div>
+          <div class="footer-column">
+            <h4>Support</h4>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="copyright">Copyright © 2025 ZK - IT & CONSULTANCY</div>
+          <div class="payment-methods">
+            <div class="payment-method">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/1200px-American_Express_logo_%282018%29.svg.png"
+                alt="American Express"
+              />
+            </div>
+            <div class="payment-method">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png"
+                alt="Mastercard"
+              />
+            </div>
+            <div class="payment-method">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/124px-PayPal.svg.png"
+                alt="PayPal"
+              />
+            </div>
+            <div class="payment-method">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
+                alt="Visa"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/testimonials.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/floating-buttons.js"></script>
+  </body>
 </html>
